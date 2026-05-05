@@ -37,7 +37,7 @@ export const site = {
   },
   /** Full URL (https://…) or a PDF under `public/`, e.g. `resume.pdf` */
   resume: {
-    href: 'https://drive.google.com/file/d/1ymzjpyzXxuXFYOSftRGA9K-r0Muou4He/view',
-    label: 'Company Profile',
+    href: '',
+    label: '',
   },
 } as const

@@ -9,6 +9,7 @@ import profilePhoto from '../assets/profile.png'
 export function Hero() {
   const { hero } = site
   const resumeLink = resumeHref(site.resume.href)
+  const hasResume = Boolean(site.resume.href && site.resume.label)
 
   return (
     <Section id="top" className="relative scroll-mt-0 overflow-hidden pb-20 pt-14 md:pb-28 md:pt-20">
@@ -95,14 +96,16 @@ export function Hero() {
             <Button href="#contact" variant="secondary">
               Contact Me
             </Button>
-            <Button
-              href={resumeLink}
-              variant="secondary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {site.resume.label}
-            </Button>
+            {hasResume && (
+              <Button
+                href={resumeLink}
+                variant="secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {site.resume.label}
+              </Button>
+            )}
           </div>
         </div>
       </Container>

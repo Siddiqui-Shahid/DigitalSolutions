@@ -15,6 +15,7 @@ const navLinks = [
 ] as const
 
 const resumeLink = resumeHref(site.resume.href)
+const hasResume = Boolean(site.resume.href && site.resume.label)
 
 export function Navbar() {
   const [open, setOpen] = useState(false)
@@ -50,16 +51,18 @@ export function Navbar() {
                 </a>
               </li>
             ))}
-            <li>
-              <a
-                href={resumeLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm font-medium text-text-secondary transition-colors hover:text-text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-              >
-                {site.resume.label}
-              </a>
-            </li>
+            {hasResume && (
+              <li>
+                <a
+                  href={resumeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-medium text-text-secondary transition-colors hover:text-text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+                >
+                  {site.resume.label}
+                </a>
+              </li>
+            )}
           </ul>
         </nav>
 
@@ -93,15 +96,17 @@ export function Navbar() {
               {label}
             </a>
           ))}
-          <a
-            href={resumeLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-lg px-3 py-3 text-base font-medium text-text-primary hover:bg-muted focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-            onClick={() => setOpen(false)}
-          >
-            {site.resume.label}
-          </a>
+          {hasResume && (
+            <a
+              href={resumeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-lg px-3 py-3 text-base font-medium text-text-primary hover:bg-muted focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+              onClick={() => setOpen(false)}
+            >
+              {site.resume.label}
+            </a>
+          )}
         </Container>
       </div>
     </header>

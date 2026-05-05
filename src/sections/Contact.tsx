@@ -9,6 +9,7 @@ const headingId = 'contact-heading'
 export function Contact() {
   const mailto = `mailto:${site.email}`
   const resumeLink = resumeHref(site.resume.href)
+  const hasResume = Boolean(site.resume.href && site.resume.label)
 
   return (
     <Section id="contact" labelledBy={headingId} className="bg-muted/40 pb-24">
@@ -34,14 +35,16 @@ export function Contact() {
           <Button href={mailto} variant="primary">
             Email me
           </Button>
-          <Button
-            href={resumeLink}
-            variant="secondary"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {site.resume.label}
-          </Button>
+          {hasResume && (
+            <Button
+              href={resumeLink}
+              variant="secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {site.resume.label}
+            </Button>
+          )}
         </div>
       </Container>
     </Section>
