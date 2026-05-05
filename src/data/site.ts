@@ -1,43 +1,43 @@
 /** Central contact and meta copy */
 export const site = {
-  name: 'Shahid',
+  name: 'DigitalSolutions',
   email: 'teamworkwithshahid@gmail.com',
   hero: {
-    headline: 'I build scalable iOS and Flutter apps for production teams',
+    headline: 'We build digital products that help businesses grow faster',
     subheadline:
-      'Shipping at District by Zomato, BookMyShow, and Raw Engineering (NBA & WNBA team apps). Swift, Dart, Python, SwiftUI, UIKit, Flutter, Firebase, MVVM, REST, analytics, CMS-driven UI — with AI-assisted, review-ready workflows.',
-    photoAlt: 'Portrait of Shahid, iOS and Flutter engineer',
+      'DigitalSolutions partners with startups and enterprises to design, build, and scale web and mobile platforms. Product engineering, cloud integrations, automation, analytics, and AI-assisted delivery with secure, review-ready workflows.',
+    photoAlt: 'DigitalSolutions team visual',
     /** Short labels for the hero visual — stacked cards */
-    stackCards: ['iOS & SwiftUI', 'Flutter & Dart', 'AI-assisted delivery'] as const,
+    stackCards: ['Web & Mobile Apps', 'Cloud & Automation', 'AI-assisted delivery'] as const,
     /** One-line proof points under the subhead */
     stats: [
-      'Production releases & scale',
-      'iOS, Flutter & Firebase',
-      'Integration & on-call ownership',
+      'End-to-end product delivery',
+      'Web, mobile, cloud, and data',
+      'Reliable launches and long-term support',
     ] as const,
     /** Companies / products — trust chips (subset of full TrustBar) */
     trustChips: [
-      'District by Zomato',
-      'BookMyShow',
-      'Raw Engineering',
-      'NBA / WNBA apps',
+      'Product teams and founders',
+      'SMBs and enterprise units',
+      'Cloud-native delivery',
+      'Cross-functional execution',
     ] as const,
   },
   about:
-    'I am an iOS engineer focused on production releases, modular architecture, and measurable performance. At District by Zomato I ship native marketplace flows and reliability on-call. At BookMyShow I owned revenue-critical surfaces and networking modernization. At Raw Engineering I shipped end-to-end features across multiple NBA team apps (integrations, analytics, notifications, and cross-team collaboration). Day to day I use Xcode, Git, GitHub, VS Code, Android Studio, Firebase, Mixpanel, deep links, REST APIs, CMS-backed content, and AI-driven development with Cursor, Claude, Gemini, and GitHub Copilot — always with reviewable, secure workflows.',
+    'DigitalSolutions is a product engineering partner focused on turning business goals into reliable digital platforms. We deliver full-cycle execution: discovery, architecture, design collaboration, development, QA, launch, and continuous optimization. Our team works across web, mobile, APIs, cloud services, analytics, and AI-assisted workflows to ship high-impact solutions with clear ownership and measurable outcomes.',
   nextProject: {
-    title: 'Ready to build your next app',
+    title: 'Ready to build your next digital solution',
     subtext:
-      'From arena apps to consumer marketplaces — scalable architecture, clear ownership, and shipped releases.',
-    cta: 'Start a Project',
+      'From product idea to production launch, we help you move faster with confidence.',
+    cta: 'Book a Discovery Call',
   },
   contact: {
     heading:
-      'Have an idea or opportunity? Reach out — I typically reply within a few snack breaks😁',
+      'Have a product idea or business challenge? Reach out and our team will respond quickly.',
   },
   /** Full URL (https://…) or a PDF under `public/`, e.g. `resume.pdf` */
   resume: {
     href: 'https://drive.google.com/file/d/1ymzjpyzXxuXFYOSftRGA9K-r0Muou4He/view',
-    label: 'Resume',
+    label: 'Company Profile',
   },
 } as const

@@ -1,9 +1,9 @@
 export const trustItems = [
-  'District by Zomato',
-  'BookMyShow',
-  'Raw Engineering',
-  'NBA / WNBA Apps',
-  'Swift / SwiftUI',
-  'Firebase',
-  'Flutter',
+  'Startups and Founders',
+  'SMB Growth Teams',
+  'Enterprise Departments',
+  'Web and Mobile Products',
+  'Cloud and Integrations',
+  'Data and Analytics',
+  'AI and Automation',
 ] as const

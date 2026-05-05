@@ -9,33 +9,33 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    title: 'iOS Development',
+    title: 'Product Engineering',
     description:
-      'Production-ready SwiftUI and UIKit apps with solid architecture and App Store polish.',
+      'End-to-end web and mobile product development with scalable architecture and clean delivery workflows.',
     Icon: Smartphone,
   },
   {
-    title: 'Flutter Development',
+    title: 'Web and Mobile Development',
     description:
-      'Cross-platform experiences with consistent UX and maintainable Dart codebases.',
+      'Build high-performance platforms across iOS, Android, and modern web stacks with consistent user experience.',
     Icon: Layers,
   },
   {
-    title: 'MVP Development',
+    title: 'MVP and Rapid Delivery',
     description:
-      'From idea to TestFlight: scope tightly, ship fast, and learn from real users.',
+      'Turn ideas into launch-ready products quickly, then iterate based on real user and market feedback.',
     Icon: Rocket,
   },
   {
-    title: 'Performance Optimization',
+    title: 'Cloud and Integration Services',
     description:
-      'Networking, startup time, memory, and binary size tuned for real-world traffic.',
+      'Connect APIs, third-party systems, and cloud infrastructure to create reliable, scalable business workflows.',
     Icon: Gauge,
   },
   {
-    title: 'AI-Driven Development',
+    title: 'AI and Automation Solutions',
     description:
-      'Secure AI-assisted coding with Cursor, Claude, Gemini, and Copilot — faster iteration and reviews without sacrificing architecture or production bar.',
+      'Apply practical AI automation to reduce manual effort, improve turnaround time, and support better decisions.',
     Icon: Sparkles,
   },
 ]

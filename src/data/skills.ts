@@ -6,38 +6,41 @@ export type SkillCategory = {
 }
 
 export const aiDevelopmentIntro =
-  'AI-driven development: Cursor, Claude, Gemini, and GitHub Copilot speed up implementation and reviews; architecture, security, and production judgment stay human-led — secure AI-assisted coding with reviewable diffs.'
+  'AI-assisted delivery: We use modern AI tooling to speed up implementation and reviews while keeping architecture, security, and production decisions human-led.'
 
 export const skillCategories: SkillCategory[] = [
   {
     title: 'Programming languages',
-    items: ['Swift', 'Dart', 'Python'],
+    items: ['TypeScript', 'JavaScript', 'Python'],
   },
   {
     title: 'Libraries & frameworks',
     items: [
-      'SwiftUI',
-      'UIKit',
-      'Deep links',
-      'Mixpanel Analytics',
-      'iOS development',
+      'React',
+      'Next.js',
+      'Node.js',
+      'Express',
       'REST API integration',
-      'Flutter',
-      'Firebase',
-      'MVVM',
-      'CMS & content management',
-      'UI SDKs',
-      'Secure AI-assisted coding',
+      'GraphQL',
+      'Mobile app development',
+      'Cloud integration',
+      'Automation workflows',
+      'Analytics and observability',
+      'CMS and content management',
+      'Secure AI-assisted engineering',
     ],
   },
   {
     title: 'Tools & platforms',
     items: [
-      'Xcode',
       'Git',
       'GitHub',
       'VS Code',
-      'Android Studio',
+      'Docker',
+      'AWS',
+      'Firebase',
+      'PostgreSQL',
+      'CI/CD pipelines',
       'Cursor',
       'Claude',
       'Gemini',

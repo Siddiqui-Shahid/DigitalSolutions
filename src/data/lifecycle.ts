@@ -18,31 +18,31 @@ export const lifecycleSteps: LifecycleStep[] = [
   {
     Icon: Lightbulb,
     title: 'Idea',
-    description: 'Clarify goals, users, and success metrics before writing code.',
+    description: 'Align business goals, user needs, and success metrics before development starts.',
   },
   {
     Icon: ClipboardList,
     title: 'Planning',
-    description: 'Architecture, APIs, and milestones aligned with your roadmap.',
+    description: 'Define architecture, integrations, scope, and milestones around your roadmap.',
   },
   {
     Icon: Code2,
     title: 'Development',
-    description: 'Ship features with clean patterns and maintainable structure.',
+    description: 'Build reliable features with maintainable code and delivery transparency.',
   },
   {
     Icon: TestTube,
     title: 'Testing',
-    description: 'Validate flows, edge cases, and performance on real devices.',
+    description: 'Validate business-critical flows, edge cases, security, and performance.',
   },
   {
     Icon: Rocket,
     title: 'Launch',
-    description: 'Release with confidence and monitor what matters in production.',
+    description: 'Launch confidently with production monitoring, alerting, and support readiness.',
   },
   {
     Icon: TrendingUp,
     title: 'Scale',
-    description: 'Iterate with analytics, stability, and growth in mind.',
+    description: 'Optimize with analytics, automation, and continuous improvement for growth.',
   },
 ]
