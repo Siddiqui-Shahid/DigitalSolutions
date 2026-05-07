@@ -12,10 +12,10 @@ export default function BelowFold() {
   return (
     <>
       <TrustBar />
-      <Lifecycle />
-      <Services />
-      <Projects />
       <TechnicalSkills />
+      <Lifecycle />
+      <Projects />
+      <Services />
       <Experience />
       <NextProjectCTA />
       <About />

@@ -3,37 +3,37 @@ export const site = {
   name: 'DigitalSolutions',
   email: 'teamworkwithshahid@gmail.com',
   hero: {
-    headline: 'We build AI-powered client acquisition systems for service businesses',
+    headline: 'We build digital products that help businesses grow faster',
     subheadline:
-      'DigitalSolutions helps agencies and growth-focused teams land more qualified calls with better positioning, proof-driven ads, a simple 3-page funnel, and automated AI follow-up that recovers missed leads.',
+      'DigitalSolutions partners with startups and enterprises to design, build, and scale web and mobile platforms. Product engineering, cloud integrations, automation, analytics, and AI-assisted delivery with secure, review-ready workflows.',
     photoAlt: 'DigitalSolutions team visual',
     /** Short labels for the hero visual — stacked cards */
-    stackCards: ['Clear positioning', '3-page funnel', 'AI follow-up automation'] as const,
+    stackCards: ['Web & Mobile Apps', 'Cloud & Automation', 'AI-assisted delivery'] as const,
     /** One-line proof points under the subhead */
     stats: [
-      'Short, proof-heavy messaging',
-      'Funnels designed for booked calls',
-      'Follow-up that prevents revenue leaks',
+      'End-to-end product delivery',
+      'Web, mobile, cloud, and data',
+      'Reliable launches and long-term support',
     ] as const,
     /** Companies / products — trust chips (subset of full TrustBar) */
     trustChips: [
-      'Agencies and service teams',
-      'Cold traffic to qualified calls',
-      'Automation-first delivery',
-      'Built for fast implementation',
+      'Product teams and founders',
+      'SMBs and enterprise units',
+      'Cloud-native delivery',
+      'Cross-functional execution',
     ] as const,
   },
   about:
-    'DigitalSolutions is a software and automation partner focused on one business outcome: helping you consistently generate and convert quality leads. We implement clear market positioning, direct-response funnel pages, and AI-assisted follow-up systems that keep opportunities moving. From strategy to engineering and optimization, we build practical systems that are measurable, scalable, and easy for your team to operate.',
+    'DigitalSolutions is a product engineering partner focused on turning business goals into reliable digital platforms. We deliver full-cycle execution: discovery, architecture, design collaboration, development, QA, launch, and continuous optimization. Our team works across web, mobile, APIs, cloud services, analytics, and AI-assisted workflows to ship high-impact solutions with clear ownership and measurable outcomes.',
   nextProject: {
-    title: 'Ready to build your client acquisition system',
+    title: 'Ready to build your next digital solution',
     subtext:
-      'If your ads, funnel, or follow-up are leaking revenue, we can rebuild the system end-to-end.',
-    cta: 'Book Strategy Call',
+      'From product idea to production launch, we help you move faster with confidence.',
+    cta: 'Book a Discovery Call',
   },
   contact: {
     heading:
-      'Tell us your niche, offer, and current funnel. We will map the fastest path to more booked calls.',
+      'Have a product idea or business challenge? Reach out and our team will respond quickly.',
   },
   /** Full URL (https://…) or a PDF under `public/`, e.g. `resume.pdf` */
   resume: {

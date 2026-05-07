@@ -9,33 +9,33 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    title: 'Positioning and Offer Clarity',
+    title: 'Product Engineering',
     description:
-      'Define a specific, results-focused message so prospects quickly understand who you help, what you solve, and why you are different.',
+      'End-to-end web and mobile product development with scalable architecture and clean delivery workflows.',
     Icon: Smartphone,
   },
   {
-    title: 'Proof-Driven Funnel Build',
+    title: 'Web and Mobile Development',
     description:
-      'Implement lean, high-converting funnel pages designed to turn cold traffic into qualified booked calls.',
+      'Build high-performance platforms across iOS, Android, and modern web stacks with consistent user experience.',
     Icon: Layers,
   },
   {
-    title: 'Direct-Response Ad Systems',
+    title: 'MVP and Rapid Delivery',
     description:
-      'Create short, direct ad frameworks with stronger proof and cleaner calls to action for better front-end conversion.',
+      'Turn ideas into launch-ready products quickly, then iterate based on real user and market feedback.',
     Icon: Rocket,
   },
   {
-    title: 'AI Follow-Up Automation',
+    title: 'Cloud and Integration Services',
     description:
-      'Set up automated lead nurture and reactivation flows so prospects who do not book immediately are still converted.',
+      'Connect APIs, third-party systems, and cloud infrastructure to create reliable, scalable business workflows.',
     Icon: Gauge,
   },
   {
-    title: 'Implementation and Optimization',
+    title: 'AI and Automation Solutions',
     description:
-      'Launch fast, monitor the full funnel, and continuously improve messaging, booking rates, and show-up quality.',
+      'Apply practical AI automation to reduce manual effort, improve turnaround time, and support better decisions.',
     Icon: Sparkles,
   },
 ]

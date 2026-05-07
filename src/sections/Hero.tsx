@@ -3,7 +3,6 @@ import { Container } from '../components/ui/Container'
 import { Section } from '../components/ui/Section'
 import { site } from '../data/site'
 import { resumeHref } from '../lib/publicUrl'
-import { ChevronsDown } from 'lucide-react'
 
 import profilePhoto from '../assets/profile.png'
 
@@ -108,14 +107,6 @@ export function Hero() {
               </Button>
             )}
           </div>
-
-          <a
-            href="#process"
-            className="mt-10 inline-flex flex-col items-center gap-2 text-sm font-medium text-text-secondary transition-colors hover:text-text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-          >
-            <span>Scroll to see the 3-step client acquisition system</span>
-            <ChevronsDown className="size-5 animate-bounce text-primary" aria-hidden />
-          </a>
         </div>
       </Container>
     </Section>
